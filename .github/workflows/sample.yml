@@ -1,14 +1,17 @@
-name: Printing Hello World
+name: Hello World
 
-on: commit
+on: pull_request
 
 jobs:
     my-jobs:
-        name: print hello world
-        runs-on: ubuntu latest
+        name: Print Hello World
+        runs-on: ubuntu-latest
         steps:
             - name: Print Hello World
-              run: echo "Hello World"   
+              run: echo "Hello World"
+            - name: Print Name
+              run: echo "Rajesh"
+     
 
 
 
