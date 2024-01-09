@@ -1,6 +1,6 @@
 name: Hello World
 
-on: pull_request
+on: commit
 
 jobs:
     my-jobs:
@@ -10,7 +10,7 @@ jobs:
             - name: Print Hello World
               run: echo "Hello World"
             - name: Print Name
-              run: echo "Rajesh"
+              run: echo "Rajeshs"
      
 
 
