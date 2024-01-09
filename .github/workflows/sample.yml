@@ -1,0 +1,14 @@
+name: Printing Hello World
+
+on: commit
+
+jobs:
+    my-jobs:
+        name: print hello world
+        runs-on: ubuntu latest
+        steps:
+            - name: Print Hello World
+              run: echo "Hello World"   
+
+
+
