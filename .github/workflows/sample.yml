@@ -10,7 +10,7 @@ jobs:
             - name: Print Hello World
               run: echo "today 11 jan"
             - name: Print Name
-              run: echo "rahul11jan836"
+              run: echo "rahul11jan900"
      
 
 
