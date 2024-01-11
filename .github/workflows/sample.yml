@@ -8,9 +8,9 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Print Hello World
-              run: echo "Hello World"
+              run: echo "today 11 jan"
             - name: Print Name
-              run: echo "Rajeshs"
+              run: echo "rahul11jan"
      
 
 
