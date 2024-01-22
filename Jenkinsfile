@@ -14,5 +14,4 @@ stages {
             steps {
                 sh 'make publish'
             }
-        }
     }
